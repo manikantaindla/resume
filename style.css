@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#heading{
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#body{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
